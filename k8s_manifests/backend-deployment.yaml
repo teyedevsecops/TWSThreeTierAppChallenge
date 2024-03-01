@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: public.ecr.aws/i4n2j1q0/backendproject:latest
+        image: 843454049670.dkr.ecr.us-east-2.amazonaws.com/backendproject
         imagePullPolicy: Always
         env:
           - name: MONGO_CONN_STR
